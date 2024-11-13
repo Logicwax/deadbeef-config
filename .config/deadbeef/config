@@ -1,0 +1,335 @@
+alsa.buffer 512
+alsa.period 1024
+alsa.resample 0
+alsa_soundcard default
+ape.write_apev2 1
+artwork.cache.expiration_time 0.000000
+artwork.cache.simplified 0
+artwork.cache_reset_time 0
+artwork.enable_embedded 1
+artwork.enable_lastfm 1
+artwork.enable_localfolder 0
+artwork.enable_wos 1
+artwork.filemask front.png;front.jpg;front.jpeg;folder.png;folder.jpg;folder.jpeg;cover.png;cover.jpg;cover.jpeg;f.png;f.jpg;f.jpeg;*front*.png;*front*.jpg;*front*.jpeg;*cover*.png;*cover*.jpg;*cover.jpeg;*folder*.png;*folder*.jpg;*folder*.jpeg;*.png;*.jpg;*.jpeg
+artwork.folders art;scans;covers;artwork;artworks
+artwork.image_size 256.000000
+artwork.missing_artwork 1
+artwork.nocover_path 
+artwork.save_to_music_folders 0
+artwork.save_to_music_folders_relative_path cover.jpg
+cdda.drive_speed 2
+cdda.enable_nrg 1
+cdda.freedb.enable 1
+cdda.freedb.host freedb.org
+cdda.freedb.port 888
+cdda.paranoia 1
+cdda.prefer_cdtext 1
+cdda.protocol 1
+cli_add_playlist_name Default
+ddb_gnome_mmkeys.enable 0
+ddb_gnome_mmkeys.mate 0
+deadbeef_version devel
+filebrowser.autofilter 0
+filebrowser.bgcolor 
+filebrowser.bgcolor_selected 
+filebrowser.coverart_files cover.png;cover.jpg;folder.png;folder.jpg;front.png;front.jpg
+filebrowser.coverart_scale 1
+filebrowser.coverart_size 28
+filebrowser.defaultpath 
+filebrowser.enabled 1
+filebrowser.extra_bookmarks $HOME/.config/deadbeef/bookmarks
+filebrowser.fgcolor 
+filebrowser.fgcolor_selected 
+filebrowser.filter 
+filebrowser.filter_enabled 0
+filebrowser.font_size 0
+filebrowser.fullsearch_wait 5
+filebrowser.hidden 0
+filebrowser.hide_navigation 0
+filebrowser.hide_search 0
+filebrowser.hide_toolbar 0
+filebrowser.icon_size 26
+filebrowser.save_treeview 0
+filebrowser.search_delay 1000
+filebrowser.show_coverart 0
+filebrowser.showbookmarks 1
+filebrowser.showhidden 0
+filebrowser.showicons 1
+filebrowser.sidebar_width 200
+filebrowser.sort_treeview 1
+filebrowser.treelines 0
+gtkui.action_separators 0
+gtkui.color.bar_background 7196 29041 55512
+gtkui.color.listview_even_row 53738 53246 51768
+gtkui.color.listview_odd_row 57054 56797 56026
+gtkui.color.listview_playing_text 0 0 0
+gtkui.color.listview_selected_text 57054 56797 56026
+gtkui.color.listview_selection 37265 16705 44204
+gtkui.color.listview_text 15677 14392 17990
+gtkui.color.tabstrip_base 39578 39321 38550
+gtkui.color.tabstrip_light 49344 7196 10280
+gtkui.color.tabstrip_text 15677 15677 15677
+gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","sort_format":"","size":"38","align":"0","color_override":"0","color":"#ff000000"},{"title":"Year","id":"-1","format":"%year%","sort_format":"","size":"68","align":"0","color_override":"0","color":"#ff3d3846"},{"title":"Artist","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)","sort_format":"","size":"276","align":"0","color_override":"0","color":"#ff000000"},{"title":"Album","id":"-1","format":"%album%","sort_format":"","size":"231","align":"0","color_override":"0","color":"#ff3d3d3d"},{"title":"Track","id":"-1","format":"%tracknumber%","sort_format":"","size":"55","align":"2","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"341","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"82","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.columns.search [{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No","id":"-1","format":"%tracknumber%","sort_format":"","size":"50","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"}]
+gtkui.custom_tray_icon deadbeef_tray_icon
+gtkui.delete_files_ask 1
+gtkui.disable_seekbar_overlay 0
+gtkui.embolden_current_track 1
+gtkui.embolden_selected_tracks 0
+gtkui.eq.visible 0
+gtkui.italic_current_track 1
+gtkui.layout.1.9.0 {"type":"vsplitter","legacy_params":" locked=0 ratio=0.062253 pos=0 size2=0","children":[{"type":"hsplitter","legacy_params":" locked=0 ratio=0.081343 pos=0 size2=0","children":[{"type":"playtb"},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.866754 pos=0 size2=0","children":[{"type":"scope","settings":{"renderMode":"mono","scaleMode":"1x","fragmentDuration":"50"}},{"type":"volumebar","settings":{"scale":"db"}}]}]},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.133477 pos=0 size2=0","children":[{"type":"waveform_seekbar"},{"type":"vsplitter","legacy_params":" locked=0 ratio=0.750000 pos=0 size2=0","children":[{"type":"hsplitter","legacy_params":" locked=0 ratio=0.173032 pos=0 size2=0","children":[{"type":"hsplitter","legacy_params":" locked=0 ratio=0.025522 pos=0 size2=0","children":[{"type":"vu_meter"},{"type":"filebrowser"}]},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.724163 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0.060052 pos=0 size2=0","children":[{"type":"quick_search","legacy_params":""},{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=1304"}]},{"type":"hsplitter","legacy_params":" locked=0 ratio=0.952632 pos=0 size2=0","children":[{"type":"vsplitter","legacy_params":" locked=0 ratio=0.504202 pos=0 size2=0","children":[{"type":"coverart","settings":{"mode":"playing"}},{"type":"selproperties","settings":{"section":"properties,metadata","showheaders":"0"}}]},{"type":"vu_meter"}]}]}]},{"type":"spectrum","settings":{"renderMode":"frequencies","distanceBetweenBars":"0","barGranularity":"1"}}]}]}]}
+gtkui.override_bar_colors 0
+gtkui.override_listview_colors 1
+gtkui.override_tabstrip_colors 1
+gtkui.playlist.group_by_tf 
+gtkui.pltbrowser.highlight_curr_plt 1
+gtkui.pltbrowser.mmb_delete_playlist 0
+gtkui.pltbrowser.play_on_double_click 1
+gtkui.refresh_rate 30
+gtkui.search.group_by_tf 
+gtkui.show_menu 1
+gtkui.statusbar.visible 1
+gtkui.statusbar_seltime 1
+gtkui.tabscroll 0
+gtkui.titlebar_playing_tf DeaDBeeF - %artist% - %title%
+gtkui.titlebar_stopped_tf DeaDBeeF
+gtkui.tray_volume_sensitivity 1
+gtkui.unicode_playstate 0
+gtkui.vis.custom_base_color 37265 16705 44204
+gtkui.vis.use_custom_base_color 1
+gui_plugin GTK3
+headerbarui.button_spacing 10.000000
+headerbarui.combined_playpause 1
+headerbarui.disable 0
+headerbarui.embed_menubar 0
+headerbarui.hide_playback_buttons 1
+headerbarui.hide_seekbar_on_streaming 0
+headerbarui.new_app_menu 0
+headerbarui.show_add_button 1
+headerbarui.show_designmode_button 1
+headerbarui.show_playback_button 1
+headerbarui.show_preferences_button 1
+headerbarui.show_seek_bar 0
+headerbarui.show_stop_button 0
+headerbarui.show_volume_button 1
+hotkey.key01 "Ctrl f" 0 0 find
+hotkey.key02 "Ctrl o" 0 0 open_files
+hotkey.key03 "Ctrl q" 0 0 quit
+hotkey.key04 "Ctrl n" 0 0 new_playlist
+hotkey.key05 "Ctrl a" 0 0 select_all
+hotkey.key06 "Escape" 0 0 deselect_all
+hotkey.key07 "Ctrl m" 0 0 toggle_stop_after_current
+hotkey.key08 "Ctrl j" 0 0 jump_to_current_track
+hotkey.key09 "F1" 0 0 help
+hotkey.key10 "Delete" 1 0 remove_from_playlist
+hotkey.key11 "Ctrl w" 0 0 remove_current_playlist
+hotkey.key12 "Alt Return" 1 0 track_properties
+hotkey.key13 "Return" 0 0 play
+hotkey.key14 "Ctrl p" 0 0 toggle_pause
+hotkey.key15 "Alt 1" 0 0 playlist1
+hotkey.key16 "Alt 2" 0 0 playlist2
+hotkey.key17 "Alt 3" 0 0 playlist3
+hotkey.key18 "Alt 4" 0 0 playlist4
+hotkey.key19 "Alt 5" 0 0 playlist5
+hotkey.key20 "Alt 6" 0 0 playlist6
+hotkey.key21 "Alt 7" 0 0 playlist7
+hotkey.key22 "Alt 8" 0 0 playlist8
+hotkey.key23 "Alt 9" 0 0 playlist9
+hotkey.key24 "Alt 0" 0 0 playlist10
+hotkey.key25 "z" 0 0 prev
+hotkey.key26 "x" 0 0 play
+hotkey.key27 "space" 0 0 play_pause
+hotkey.key28 "v" 0 0 stop
+hotkey.key29 "b" 0 0 next
+hotkey.key30 "n" 0 0 playback_random
+hotkey.key31 "Ctrl k" 0 0 toggle_stop_after_album
+hotkeys_created 1
+lastfm.disable_np 0
+lastfm.enable 0
+lastfm.mbid 1
+lastfm.prefer_album_artist 0
+lastfm.scrobbler_url https://post.audioscrobbler.com
+lastfm.submit_tiny_tracks 1
+lastfm.trace 0
+logwindow.geometry.h 930
+logwindow.geometry.w 1728
+logwindow.geometry.x 26
+logwindow.geometry.y 23
+mainwin.geometry.h 1390
+mainwin.geometry.maximized 0
+mainwin.geometry.w 2185
+mainwin.geometry.x 26
+mainwin.geometry.y 23
+medialib.deadbeef.enabled 1
+mp3.id3v1_encoding iso8859-1
+mp3.id3v2_version 4
+mp3.write_apev2 0
+mp3.write_id3v1 1
+mp3.write_id3v2 1
+musical_spectrum.alignment 2
+musical_spectrum.amp_max 0
+musical_spectrum.amp_min -60
+musical_spectrum.bar_delay 59
+musical_spectrum.bar_falloff 100
+musical_spectrum.bar_w 0
+musical_spectrum.channel 262143
+musical_spectrum.color.background 0 0 0
+musical_spectrum.color.black_keys 0 0 0
+musical_spectrum.color.gradient_00 65535 0 0
+musical_spectrum.color.gradient_01 65535 32896 0
+musical_spectrum.color.gradient_02 65535 65535 0
+musical_spectrum.color.gradient_03 32896 65535 30840
+musical_spectrum.color.gradient_04 0 38036 41120
+musical_spectrum.color.gradient_05 0 8224 25700
+musical_spectrum.color.hgrid 21845 21845 21845
+musical_spectrum.color.ogrid 42148 0 0
+musical_spectrum.color.peaks 42148 0 0
+musical_spectrum.color.text 65535 65535 65535
+musical_spectrum.color.vgrid 21845 21845 21845
+musical_spectrum.color.white_keys 10240 10240 10240
+musical_spectrum.draw_style 0
+musical_spectrum.enable_amp 0
+musical_spectrum.enable_bar_mode 1
+musical_spectrum.enable_black_keys 1
+musical_spectrum.enable_bottom_labels 1
+musical_spectrum.enable_hgrid 1
+musical_spectrum.enable_left_labels 1
+musical_spectrum.enable_ogrid 1
+musical_spectrum.enable_peaks 1
+musical_spectrum.enable_peaks_color 1
+musical_spectrum.enable_right_labels 1
+musical_spectrum.enable_tooltip 1
+musical_spectrum.enable_top_labels 0
+musical_spectrum.enable_vgrid 1
+musical_spectrum.enable_white_keys 1
+musical_spectrum.fft_size 512
+musical_spectrum.fill_spectrum 0
+musical_spectrum.font Sans 7
+musical_spectrum.font_tooltip Sans 9
+musical_spectrum.gaps 1
+musical_spectrum.gradient_orientation 0
+musical_spectrum.interpolate 1
+musical_spectrum.note_max 143
+musical_spectrum.note_min 0
+musical_spectrum.num_colors 6
+musical_spectrum.peak_delay 500
+musical_spectrum.peak_falloff 50
+musical_spectrum.pitch 440
+musical_spectrum.refresh_interval 8
+musical_spectrum.spacing 1
+musical_spectrum.transpose 0
+musical_spectrum.window 1
+network.proxy.port 8080
+notify.albumart 1
+notify.albumart_size 64
+notify.enable 0
+notify.format_content_tf %artist% - %album%
+notify.format_title_tf %title%
+output_plugin pulseaudio2
+playback.loop 1
+playback.volume.normalized 1.0000000
+playlist.current 1
+playlist.cursor.0 6416
+playlist.cursor.1 8
+playlist.cursor.2 1
+playlist.cursor.3 1
+playlist.cursor.4 1
+playlist.cursor.5 1
+playlist.cursor.6 14
+playlist.cursor.7 3
+playlist.cursor.8 260
+playlist.pin.groups 1
+playlist.scroll.0 147369
+playlist.scroll.1 -1
+playlist.scroll.2 -1
+playlist.scroll.3 -1
+playlist.scroll.4 -1
+playlist.scroll.5 -1
+playlist.scroll.6 2072
+playlist.scroll.7 0
+playlist.scroll.8 59796
+playlist.scroll.cursorfollowplayback 1
+playlist.stop_after_album 0
+playlist.tab.00000 Scratch Pad
+playlist.tab.00001 Default
+prefwin.geometry.h 728
+prefwin.geometry.w 984
+prefwin.geometry.x 26
+prefwin.geometry.y 23
+pulse.buffersize 20
+pulse.pauseoncork 1
+pulse.serveraddr 
+pulse.serveraddr2 
+pulse.volumecontrol 1
+pulseaudio2_soundcard default
+quick_search.append_search_string 1
+quick_search.history_size 20.000000
+streamer.16_to_24 0
+streamer.8_to_16 0
+streamer.bit_override 0
+streamer.override_samplerate 0
+streamer.samplerate 44100
+streamer.samplerate_mult_44 44100
+streamer.samplerate_mult_48 48000
+trkproperties.geometry.h 748
+trkproperties.geometry.w 1350
+trkproperties.geometry.x 26
+trkproperties.geometry.y 23
+vu_meter.bar_delay 0
+vu_meter.bar_falloff -1
+vu_meter.color.background 8738 8738 8738
+vu_meter.color.gradient_00 65535 0 0
+vu_meter.color.gradient_01 65535 32896 0
+vu_meter.color.gradient_02 65535 65535 0
+vu_meter.color.gradient_03 32896 65535 30840
+vu_meter.color.gradient_04 0 38036 41120
+vu_meter.color.gradient_05 0 8224 25700
+vu_meter.color.hgrid 26214 26214 26214
+vu_meter.color.vgrid 0 0 0
+vu_meter.db_range 70
+vu_meter.enable_bar_mode 0
+vu_meter.enable_hgrid 0
+vu_meter.enable_vgrid 0
+vu_meter.gradient_orientation 0
+vu_meter.num_colors 6
+vu_meter.peak_delay 100
+vu_meter.peak_falloff 90
+vu_meter.refresh_interval 10
+waveform.bg_alpha 65535
+waveform.bg_color_b 0
+waveform.bg_color_g 0
+waveform.bg_color_r 0
+waveform.border_width 1
+waveform.cache_enabled 1
+waveform.cursor_width 3
+waveform.display_rms 1
+waveform.display_ruler 0
+waveform.fg_alpha 65535
+waveform.fg_color_b 26681
+waveform.fg_color_g 31019
+waveform.fg_color_r 9616
+waveform.fg_rms_alpha 65535
+waveform.fg_rms_color_b 0
+waveform.fg_rms_color_g 17990
+waveform.fg_rms_color_r 50886
+waveform.fill_waveform 1
+waveform.font_size 18
+waveform.log_enabled 0
+waveform.max_file_length -1
+waveform.mix_to_mono 1
+waveform.num_samples 2048
+waveform.pb_alpha 65535
+waveform.pb_color_b 54830
+waveform.pb_color_g 23995
+waveform.pb_color_r 17728
+waveform.refresh_interval 33
+waveform.render_method 2
+waveform.rlr_alpha 65535
+waveform.rlr_color_b 31611
+waveform.rlr_color_g 30326
+waveform.rlr_color_r 30583
+waveform.scroll_enabled 1
+waveform.shade_waveform 1
+waveform.soundcloud_style 1
+wv.write_apev2 1
